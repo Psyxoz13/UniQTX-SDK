@@ -1,0 +1,28 @@
+{
+  "name": "com.psyxoz.uniqtx",
+  "version": "1.0.0",
+  "displayName": "UniQTX",
+  "description": "Stores PNG and JPEG textures in builds and asset bundles as compact QTX data and turns them into native GPU textures when they load: BC1/BC3/BC7 on desktop, ETC2 or ASTC on mobile, RGBA32 as a fallback.",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.unity.2d.sprite": "1.0.0",
+    "com.unity.addressables": "4.1.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "keywords": [
+    "texture",
+    "compression",
+    "qtx",
+    "astc",
+    "bc7",
+    "etc2",
+    "webgl"
+  ],
+  "author": {
+    "name": "Psyxoz",
+    "url": "https://github.com/Psyxoz13"
+  },
+  "documentationUrl": "https://github.com/Psyxoz13/UniQTX-SDK#readme",
+  "licensesUrl": "https://github.com/Psyxoz13/UniQTX-SDK/blob/main/LICENSE.md"
+}
